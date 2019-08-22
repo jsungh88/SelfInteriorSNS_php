@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@localhost" uuid="0363bb92-a265-43fa-8c42-aabab5c3fa83">
+      <database-info product="MySQL" version="5.7.22-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.22">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:*</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>13.209.60.32</proxy-host>
+        <secret-storage>master_key</secret-storage>
+        <user>ubuntu</user>
+        <use-password>false</use-password>
+        <auth-type>KEY_PAIR</auth-type>
+        <private-key-path>D:\aws_key\awspwd_0608_2.pem</private-key-path>
+      </ssh-properties>
+    </data-source>
+    <data-source name="@localhost [2]" uuid="f203b5c5-b67d-4dd4-8a93-78697a601799">
+      <database-info product="MySQL" version="5.7.22-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.22">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:*</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>13.209.108.67</proxy-host>
+        <user>ubuntu</user>
+        <use-password>false</use-password>
+        <auth-type>KEY_PAIR</auth-type>
+        <private-key-path>D:\aws_key\new.pem</private-key-path>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
